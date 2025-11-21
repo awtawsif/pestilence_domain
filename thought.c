@@ -3,26 +3,20 @@
 #include "colors.h"
 #include "thought.h"
 #include "output.h"
-#include "read_line.h"
 
 void thought_path()
 {
     pnl();
-    print_formatted_message(WHITE, ITALIC, read_line(24));
-    pnl();
-    print_formatted_message(RED, BOLD, read_line(25));
-    print_formatted_message(WHITE, BOLD, read_line(26));
-    pnl();
-    print_formatted_message(BLUE, BOLD, read_line(27));
-    print_formatted_message(BLUE, BOLD, read_line(28));
-    print_formatted_message(BLUE, BOLD, read_line(29));
-    pnl();
+    print_formatted_message(WHITE, ITALIC, "You choose the path of the mind, where reality is a fever dream, and knowledge itself is a disease.\nThe fog whispers secrets you feel compelled to believe.\n\n");
+    print_formatted_message(RED, BOLD, "Pestilence:\n");
+    print_formatted_message(WHITE, BOLD, "“Can knowledge infect?”\n\n");
+    print_formatted_message(BLUE, BOLD, "1. Yes, truth spreads like a plague\n2. No, truth purifies\n3. Only lies infect\n\n");
     print_formatted_message(YELLOW, BOLD, "Choose your answer (1, 2 or 3): ");
-    int choice;
-    scanf("%d", &choice);
+    char choice[10];
+    scanf("%s", choice);
     while (1)
     {
-        if (choice == 1 || choice == 2 || choice == 3)
+        if ((choice[0] == '1' || choice[0] == '2' || choice[0] == '3') && choice[1] == '\0')
         {
             break;
         }
@@ -30,14 +24,13 @@ void thought_path()
         {
             pnl();
             print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1, 2 or 3): ");
-            scanf("%d", &choice);
+            scanf("%s", choice);
         }
     }
-    if (choice != 1)
+    if (choice[0] != '1')
     {
         pnl();
-        print_formatted_message(RED, BOLD, "Your mind fractures under the weight of madness...");
-        pnl();
+        print_formatted_message(RED, BOLD, "Your mind fractures under the weight of madness...\n");
         print_formatted_message(WHITE, ITALIC, "You are lost in the labyrinth of your own thoughts.");
         pnl();
         exit(0);
@@ -45,8 +38,7 @@ void thought_path()
     else
     {
         pnl();
-        print_formatted_message(WHITE, ITALIC, "Your clarity preserves your sanity.");
-        pnl();
-        print_formatted_message(WHITE, ITALIC, read_line(30));
+        print_formatted_message(WHITE, ITALIC, "Your clarity preserves your sanity.\n");
+        print_formatted_message(WHITE, ITALIC, "Your vision flickers, and you question the solidity of the ground beneath you. The path ahead is a twisting maze of logic and illusion.\n");
     }
 }

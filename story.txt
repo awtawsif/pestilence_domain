@@ -1,4 +1,4 @@
-The Infested Marshes
+##### The Infested Marshes #####
 The air is thick, sickly sweet with rot, and the ground oozes beneath your feet. A figure coalesces from the fever-fog—Pestilence himself.
 His voice, a rasping cough, is the first thing you hear in this corrupted land.
 Pestilence:
@@ -28,10 +28,8 @@ Pestilence:
 2. No, truth purifies
 3. Only lies infect
 Your vision flickers, and you question the solidity of the ground beneath you. The path ahead is a twisting maze of logic and illusion.
-
-🌿 LEVEL 2 — Sub-Realms
-LEVEL 2 INTRO
- You have chosen your primary contagion. Now, the path splinters. Pestilence’s domain is a tapestry of affliction, and you must navigate the nuances of your chosen decay.
+##### The Veins of Corruption #####
+You have chosen your primary contagion. Now, the path splinters. Pestilence’s domain is a tapestry of affliction, and you must navigate the nuances of your chosen decay.
 
 🩸 PATH OF FLESH
 2.1 The Plagued Village
