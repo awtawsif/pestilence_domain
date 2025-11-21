@@ -1,51 +1,33 @@
-PESTILENCE DOMAIN
-
-🌫️ LEVEL 1 — The Infested Marshes (Choose Your Path)
-INTRO
- The air is thick, sickly sweet with rot, and the ground oozes beneath your feet. A figure coalesces from the fever-fog—Pestilence himself. His voice, a rasping cough, is the first thing you hear in this corrupted land.
+The Infested Marshes
+The air is thick, sickly sweet with rot, and the ground oozes beneath your feet. A figure coalesces from the fever-fog—Pestilence himself.
+His voice, a rasping cough, is the first thing you hear in this corrupted land.
 Pestilence:
 “Three paths of decay. Choose your contagion, and see what festers in you.”
-PROMPT
- He gestures, and three swirling clouds of mist form before you. Which form of decay will you embrace to begin your journey?
-
+He gestures, and three swirling clouds of mist form before you. Which form of decay will you embrace to begin your journey?
 Path 1: Flesh — “The Rot That Breathes”
-INTRO
- You choose the path of the body, the immediate, sickening truth of physical corruption. The air grows heavier, and your own skin begins to prickle with fever.
+Path 2: Faith — “The Prayer of the Diseased”
+Path 3: Thought — “The Whispering Fog”
+You choose the path of the body, the immediate, sickening truth of physical corruption. The air grows heavier, and your own skin begins to prickle with fever.
 Pestilence:
 “When flesh fails, what kills first?”
-Option
-The wound itself
-The infection within
-The fear of dying
-
-OUTRO
- You feel a subtle, painful shift in your bones, a silent acknowledgement of the unseen enemy. The path ahead is now a labyrinth of physical distress.
-
-Path 2: Faith — “The Prayer of the Diseased”
-INTRO
- You choose the path of the soul, where devotion is tested by suffering, and belief becomes a form of blindness. A chorus of desperate, wheezing prayers echoes in your mind.
+1. The wound itself
+2. The infection within
+3. The fear of dying
+You feel a subtle, painful shift in your bones, a silent acknowledgement of the unseen enemy. The path ahead is now a labyrinth of physical distress.
+You choose the path of the soul, where devotion is tested by suffering, and belief becomes a form of blindness. A chorus of desperate, wheezing prayers echoes in your mind.
 Pestilence:
 “If healing one requires the death of ten, is it mercy?”
-Option
-Yes, one life saved is worth it
-No, salvation built on suffering is corruption
-Depends on the one saved
-
-OUTRO
- The air tastes of ash and false hope, a weight settling on your conscience. Your path now demands sacrifice and difficult moral clarity.
-
-Path 3: Thought — “The Whispering Fog”
-INTRO
- You choose the path of the mind, where reality is a fever dream, and knowledge itself is a disease. The fog whispers secrets you feel compelled to believe.
+1. Yes, one life saved is worth it
+2. No, salvation built on suffering is corruption
+3. Depends on the one saved
+The air tastes of ash and false hope, a weight settling on your conscience. Your path now demands sacrifice and difficult moral clarity.
+You choose the path of the mind, where reality is a fever dream, and knowledge itself is a disease. The fog whispers secrets you feel compelled to believe.
 Pestilence:
 “Can knowledge infect?”
-Option
-Yes, truth spreads like a plague
-No, truth purifies
-Only lies infect
-
-OUTRO
- Your vision flickers, and you question the solidity of the ground beneath you. The path ahead is a twisting maze of logic and illusion.
+1. Yes, truth spreads like a plague
+2. No, truth purifies
+3. Only lies infect
+Your vision flickers, and you question the solidity of the ground beneath you. The path ahead is a twisting maze of logic and illusion.
 
 🌿 LEVEL 2 — Sub-Realms
 LEVEL 2 INTRO
@@ -54,123 +36,114 @@ LEVEL 2 INTRO
 🩸 PATH OF FLESH
 2.1 The Plagued Village
 Narrative Setup
- The villagers cough and bleed; eyes pleading as they crawl toward you. They are beyond saving, yet their suffering is a raw, painful plea.
+The villagers cough and bleed; eyes pleading as they crawl toward you. They are beyond saving, yet their suffering is a raw, painful plea.
 Question Prompt
-“You have one vial of cure, enough for half. Who do you save?”
+“The village is dying. How do you handle the infected populace?”
 Option
-The young
-The wise
-Randomly
-
+Heal the child
+Burn the sick
+Seal the gates
 Outro
- You made your decision. Now the surviving half of the village, newly saved or left to die, will define your final confrontation with the consequences of your action.
+The village falls silent, its fate sealed by your hand. Whether through sacrifice, fire, or isolation, you have chosen your method of containment, and the consequences will scar the path ahead.
 
 2.2 The Rotting Tree
 Narrative Setup
- The forest here is a single, cancerous organism. Roots pulse beneath your feet, black sap bubbling like tar from a giant, twisted tree.
+The forest here is a single, cancerous organism. Roots pulse beneath your feet, black sap bubbling like tar from a giant, twisted tree.
 Question Prompt
 “Four vines strangle the roots. One is life, fighting to sustain the rot. Which do you cut to stop the infection?”
 Option
 Vine of Blood
 Vine of Ash
 Vine of Glass
-
 Hint: “Even decay has a pulse.”
 Outro
- You sever the vine. The ground shakes, and the consequence of this violent act of intervention awaits in the next stage of the rot.
+You sever the vine, and the forest reacts instantly. The pulse of the land shifts, reshaping itself around the specific nature of your interference—blood, ash, or reflection.
 
 2.3 The Broken Mirror
 Narrative Setup
- In a forgotten marsh pool, a shattered piece of glass reflects you. You see your reflection smiling when you do not, its eyes dark and mocking.
+In a forgotten marsh pool, a shattered piece of glass reflects you. You see your reflection smiling when you do not, its eyes dark and mocking.
 Question Prompt
-“What happens when you shatter your reflection, a perfect image of the self?”
+“How do you interact with your corrupted self?”
 Option
-You’re free
-You break yourself
-The reflection escapes
-
+Touch the reflection
+Shatter the glass
+Walk away
 Outro
- The reflection now understands your intent. Its broken fragments will serve as the eyes through which you face your final trial in this path of flesh.
+The image in the glass reacts to your will. Whether broken, merged, or abandoned, the reflection's shadow now clings to you, guiding you toward the truth of your own vanity.
 
 🕯️ PATH OF FAITH
 2.4 The False Prophet
 Narrative Setup
- A man preaches healing to a crowd of the suffering—his touch spreads boils, his followers cheer. They find solace in the shared, divine pain.
+A man preaches healing to a crowd of the suffering—his touch spreads boils, his followers cheer. They find solace in the shared, divine pain.
 Question Prompt
 “His lies offer comfort, his truth brings death. Do you expose him to the desperate crowd?”
 Option
-Yes
-No
+Expose him
 Join him
-
+Stay silent
 Outro
- Your choice rings out. Whether you spoke or stayed silent, the Prophet's fate, and the crowd's devotion, will dictate the nature of your final moral challenge.
+The crowd shifts, their devotion rippling like a fever. Your interaction with the false shepherd—be it conflict, complicity, or apathy—has set the stage for a reckoning with faith itself.
 
 2.5 The Diseased Idol
 Narrative Setup
- An idol of carved bone stands central in a shrine. It leaks black, oily tears, and the kneeling villagers pray in blissful, unquestioning rot.
+An idol of carved bone stands central in a shrine. It leaks black, oily tears, and the kneeling villagers pray in blissful, unquestioning rot.
 Question Prompt
 “This is devotion to the plague itself. Do you act to save their souls from this false deity?”
 Option
 Destroy it
 Worship it
-Wash it clean
-
+Cleanse it
 Outro
- The consequences of interfering with their worship are immediate. Your final encounter is now shaped by whether you protected or desecrated their belief.
+The heavy air of the shrine shifts. The idol stands or falls by your command, marking you as either a destroyer of false gods, a servant of their decay, or a fool trying to wash away the un-washable.
 
 2.6 The Pilgrim’s Test
 Narrative Setup
- A pilgrim collapses before you, pustules covering their skin. They gasp out a prayer. You carry one dose of the true cure—enough for them, or for you.
+A pilgrim collapses before you, pustules covering their skin. They gasp out a prayer. You carry one dose of the true cure—enough for them, or for you.
 Question Prompt
 “You carry one cure. Is your life or the purity of your devotion more valuable right now? What do you do?”
 Option
 Give it
 Keep it
 Leave them
-
 Outro
- The choice is made—a life given or a life taken. Your final test will be defined by the burden of this choice: the darkness in your veins, or the weight in your conscience.
+The pilgrim's fate is decided. The weight of the cure—used, saved, or withheld—settles in your pocket and your soul as the river flows on.
 
 🧠 PATH OF THOUGHT
 2.7 The Hall of Echoes
 Narrative Setup
- The Hall is vast and empty. The air repeats your every thought—each echo louder, more twisted, and more accusatory than the last.
+The Hall is vast and empty. The air repeats your every thought—each echo louder, more twisted, and more accusatory than the last.
 Question Prompt
-“In this din of self-condemnation, which internal voice do you silence first to regain control?”
+“In this din of self-condemnation, how do you react to the echoes?”
 Option
-The voice of guilt
-The voice of fear
-The voice of doubt
-
+Follow the echo
+Block your ears
+Scream back
 Outro
- The chosen voice fades, but the others remain. Your final mental confrontation will be dictated by the nature of the remaining internal struggle.
+The echoes respond to your reaction. By engaging, ignoring, or overpowering them, you have tuned your mind to a specific frequency of madness that will manifest in the final trial.
 
 2.8 The Whispering Book
 Narrative Setup
- A large, leather-bound tome hums softly on a pedestal, its words writhing on the page. Its promise is grand, its price terrifying.
+A large, leather-bound tome hums softly on a pedestal, its words writhing on the page. Its promise is grand, its price terrifying.
 Question Prompt
 “Its pages promise cure for all madness but warn that the enlightenment will blind the reader to the real world. Do you read it?”
 Option
-Yes
-No
-Burn it
-
+Read the book
+Burn the book
+Seal the book
 Outro
- The decision is made. The nature of the book's power—opened, closed, or destroyed—will create the logic puzzle for your final test.
+The book's fate is sealed. Whether its knowledge is consumed, destroyed, or buried, the truth it holds (or hides) now defines the boundaries of your sanity.
 
 2.9 The Forgotten Dream
 Narrative Setup
- You dream of curing the world, a perfect, logical plan unfolding—but you wake with your mind hollowed out, the memory of the plan gone. The choice is stark.
+You dream of curing the world, a perfect, logical plan unfolding—but you wake with your mind hollowed out, the memory of the plan gone. The choice is stark.
 Question Prompt
 “Would you trade all memory, all understanding of the self, for the salvation of the world?”
 Option
-Yes
-No
-Forget the dream
-
+Chase the dream
+Wake up
+Let fog consume you
 Outro
- Your choice on memory vs. reality is the foundation of your final struggle. The path ahead is one of either perfect awareness or blissful forgetting.
+The dream dissolves or solidifies based on your will. You step forward, carrying the residue of either harsh reality, seductive oblivion, or total dissolution.
 
 
 🌑 LEVEL 3 — FINAL SUB-BRANCHES (ALL PATHS)
