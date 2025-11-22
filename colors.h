@@ -3,6 +3,7 @@
 #define YELLOW "\033[0;33m"
 #define BLUE "\033[0;34m"
 #define WHITE "\033[0;37m"
+#define STRIKETHROUGH "\033[9m"
 #define BOLD "\033[1m"
 #define ITALIC "\033[3m"
 #define RESET "\033[0m"
