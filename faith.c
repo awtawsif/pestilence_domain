@@ -6,13 +6,6 @@
 #include "output.h"
 #include "choose.h"
 
-#ifdef _WIN32
-#include <conio.h>
-#else
-#include <stdio.h>
-#define clrscr() printf("\033[H\033[J")
-#endif
-
 void faith_path()
 {
     pnl();
