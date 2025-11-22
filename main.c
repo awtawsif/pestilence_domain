@@ -28,7 +28,7 @@ int main()
     print_formatted_message(RED, BOLD, "Pestilence:\n");
     print_formatted_message(WHITE, BOLD, "“Three paths of decay. Choose your contagion, and see what festers in you.”\n\n");
     print_formatted_message(WHITE, ITALIC, "He gestures, and three swirling clouds of mist form before you. Which form of decay will you embrace to begin your journey?\n\n");
-    print_formatted_message(BLUE, BOLD, "Path 1: Flesh - \"The Rot of That Breathes\"\nPath 2: Faith - \"The Prayer of the Diseased\"\nPath 3: Thought - \"The Whispering Fog\"\n\n");
+    print_formatted_message(BLUE, BOLD, "Flesh - \"The Rot of That Breathes\"\nFaith - \"The Prayer of the Diseased\"\nThought - \"The Whispering Fog\"\n\n");
     print_formatted_message(YELLOW, BOLD, "Choose your destiny (1, 2 or 3): ");
     char choice[10];
     scanf("%s", choice);

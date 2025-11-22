@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include "colors.h"
 #include "flesh.h"
 #include "output.h"
@@ -40,9 +41,10 @@ void flesh_path()
         print_formatted_message(RED, BOLD, "Your flesh trembles and decays rapidly...\n");
         print_formatted_message(WHITE, ITALIC, "You have succumbed to the plague of your own making.\n");
         pnl();
+        print_death_ascii_art();
+        pnl();
+        usleep(500000);
         exit(0);
-        // TODO: Add a death ascii art here later
-        // TODO: Add a delay before exit
         // TODO: Maybe add a restart option later
     }
     else
@@ -83,5 +85,26 @@ void plagued_village()
             print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1, 2 or 3): ");
             scanf("%s", choice);
         }
+    }
+    if (choice[0] == '1')
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to heal the child.\n");
+        pnl();
+        exit(0);
+    }
+    else if (choice[0] == '2')
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to burn the sick.\n");
+        pnl();
+        exit(0);
+    }
+    else
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to seal the gates.\n");
+        pnl();
+        exit(0);
     }
 }

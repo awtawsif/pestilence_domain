@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include "colors.h"
 #include "faith.h"
 #include "output.h"
@@ -40,9 +41,10 @@ void faith_path()
         print_formatted_message(RED, BOLD, "Your faith crumbles, leaving you in despair...\n");
         print_formatted_message(WHITE, ITALIC, "You are lost in the void of disbelief.\n");
         pnl();
+        print_death_ascii_art();
+        pnl();
+        usleep(500000);
         exit(0);
-        // TODO: Add a death ascii art here later
-        // TODO: Add a delay before exit
         // TODO: Maybe add a restart option later
     }
     else
@@ -82,5 +84,26 @@ void pilgrim_test()
             print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1, 2 or 3): ");
             scanf("%s", choice);
         }
+    }
+    if (choice[0] == '1')
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to give the cure.");
+        pnl();
+        exit(0);
+    }
+    else if (choice[0] == '2')
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to keep the cure.");
+        pnl();
+        exit(0);
+    }
+    else
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to leave the pilgrim.");
+        pnl();
+        exit(0);
     }
 }

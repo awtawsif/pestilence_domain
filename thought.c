@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include "colors.h"
 #include "thought.h"
 #include "output.h"
@@ -40,9 +41,10 @@ void thought_path()
         print_formatted_message(RED, BOLD, "Your mind fractures under the weight of madness...\n");
         print_formatted_message(WHITE, ITALIC, "You are lost in the labyrinth of your own thoughts.");
         pnl();
+        print_death_ascii_art();
+        pnl();
+        usleep(500000);
         exit(0);
-        // TODO: Add a death ascii art here later
-        // TODO: Add a delay before exit
         // TODO: Maybe add a restart option later
     }
     else
@@ -83,5 +85,26 @@ void hall_of_echoes()
             print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1, 2 or 3): ");
             scanf("%s", choice);
         }
+    }
+    if (choice[0] == '1')
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to follow the echo.\n");
+        pnl();
+        exit(0);
+    }
+    else if (choice[0] == '2')
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to block your ears.\n");
+        pnl();
+        exit(0);
+    }
+    else
+    {
+        pnl();
+        print_formatted_message(WHITE, ITALIC, "You have chosen to scream back.\n");
+        pnl();
+        exit(0);
     }
 }
