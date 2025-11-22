@@ -4,6 +4,7 @@
 #include "colors.h"
 #include "thought.h"
 #include "output.h"
+#include "choose.h"
 
 #ifdef _WIN32
 #include <conio.h>
@@ -19,23 +20,8 @@ void thought_path()
     print_formatted_message(RED, BOLD, "Pestilence:\n");
     print_formatted_message(WHITE, BOLD, "“Can knowledge infect?”\n\n");
     print_formatted_message(BLUE, BOLD, "1. Yes, truth spreads like a plague\n2. No, truth purifies\n3. Only lies infect\n\n");
-    print_formatted_message(YELLOW, BOLD, "Choose your answer (1, 2 or 3): ");
-    char choice[10];
-    scanf("%s", choice);
-    while (1)
-    {
-        if ((choice[0] == '1' || choice[0] == '2' || choice[0] == '3') && choice[1] == '\0')
-        {
-            break;
-        }
-        else
-        {
-            pnl();
-            print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1, 2 or 3): ");
-            scanf("%s", choice);
-        }
-    }
-    if (choice[0] != '1')
+    char choice = choose_path(3);
+    if (choice != '1')
     {
         pnl();
         print_formatted_message(RED, BOLD, "Your mind fractures under the weight of madness...\n");
@@ -70,30 +56,15 @@ void hall_of_echoes()
     print_formatted_message(RED, BOLD, "Pestilence:\n");
     print_formatted_message(WHITE, BOLD, "“In this din of self-condemnation, how do you react to the echoes?”\n\n");
     print_formatted_message(BLUE, BOLD, "1. Follow the echo\n2. Block your ears\n3. Scream back\n\n");
-    print_formatted_message(YELLOW, BOLD, "Choose your answer (1, 2 or 3): ");
-    char choice[10];
-    scanf("%s", choice);
-    while (1)
-    {
-        if ((choice[0] == '1' || choice[0] == '2' || choice[0] == '3') && choice[1] == '\0')
-        {
-            break;
-        }
-        else
-        {
-            pnl();
-            print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1, 2 or 3): ");
-            scanf("%s", choice);
-        }
-    }
-    if (choice[0] == '1')
+    char choice = choose_path(3);
+    if (choice == '1')
     {
         pnl();
         print_formatted_message(WHITE, ITALIC, "You have chosen to follow the echo.\n");
         pnl();
         exit(0);
     }
-    else if (choice[0] == '2')
+    else if (choice == '2')
     {
         pnl();
         print_formatted_message(WHITE, ITALIC, "You have chosen to block your ears.\n");

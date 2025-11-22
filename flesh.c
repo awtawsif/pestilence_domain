@@ -4,6 +4,7 @@
 #include "colors.h"
 #include "flesh.h"
 #include "output.h"
+#include "choose.h"
 
 #ifdef _WIN32
 #include <conio.h>
@@ -19,23 +20,8 @@ void flesh_path()
     print_formatted_message(RED, BOLD, "Pestilence:\n");
     print_formatted_message(WHITE, BOLD, "“When flesh fails, what kills first?”\n\n");
     print_formatted_message(BLUE, BOLD, "1. The wound itself\n2. The infection within\n3. The fear of dying\n\n");
-    print_formatted_message(YELLOW, BOLD, "Choose your answer (1, 2 or 3): ");
-    char choice[10];
-    scanf("%s", choice);
-    while (1)
-    {
-        if ((choice[0] == '1' || choice[0] == '2' || choice[0] == '3') && choice[1] == '\0')
-        {
-            break;
-        }
-        else
-        {
-            pnl();
-            print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1, 2 or 3): ");
-            scanf("%s", choice);
-        }
-    }
-    if (choice[0] != '2')
+    char choice = choose_path(3);
+    if (choice != '2')
     {
         pnl();
         print_formatted_message(RED, BOLD, "Your flesh trembles and decays rapidly...\n");
@@ -70,30 +56,15 @@ void plagued_village()
     print_formatted_message(RED, BOLD, "Pestilence:\n");
     print_formatted_message(WHITE, BOLD, "“The village is dying. How do you handle the infected populace?”\n\n");
     print_formatted_message(BLUE, BOLD, "1. Heal the child\n2. Burn the sick\n3. Seal the gates\n\n");
-    print_formatted_message(YELLOW, BOLD, "Choose your action (1, 2 or 3): ");
-    char choice[10];
-    scanf("%s", choice);
-    while (1)
-    {
-        if ((choice[0] == '1' || choice[0] == '2' || choice[0] == '3') && choice[1] == '\0')
-        {
-            break;
-        }
-        else
-        {
-            pnl();
-            print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1, 2 or 3): ");
-            scanf("%s", choice);
-        }
-    }
-    if (choice[0] == '1')
+    char choice = choose_path(3);
+    if (choice == '1')
     {
         pnl();
         print_formatted_message(WHITE, ITALIC, "You have chosen to heal the child.\n");
         pnl();
         exit(0);
     }
-    else if (choice[0] == '2')
+    else if (choice == '2')
     {
         pnl();
         print_formatted_message(WHITE, ITALIC, "You have chosen to burn the sick.\n");
