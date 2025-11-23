@@ -44,4 +44,25 @@ char choose_path(int choices) {
         }
         return choice[0];
     }
+    else if (choices == 1)
+    {
+        print_formatted_message(YELLOW, BOLD, "Choose your destiny (1): ");
+        char choice[10];
+        scanf("%s", choice);
+        while (1)
+        {
+            if (choice[0] == '1' && choice[1] == '\0')
+            {
+                break;
+            }
+            else
+            {
+                pnl();
+                print_formatted_message(RED, NULL, "Ignorant fool! Choose again (1): ");
+                scanf("%s", choice);
+            }
+        }
+        return choice[0];
+    }
+
 }
