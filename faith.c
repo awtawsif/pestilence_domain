@@ -20,11 +20,22 @@ void faith_path()
         print_formatted_message(RED, BOLD, "Your faith crumbles, leaving you in despair...\n");
         print_formatted_message(WHITE, ITALIC, "You are lost in the void of disbelief.\n");
         pnl();
+        pnl();
         print_death_ascii_art();
         pnl();
+        pnl();
         sleep_ms(500);
-        exit(0);
-        // TODO: Maybe add a restart option later
+        print_formatted_message(RED, BOLD, "Do you wish to restart your journey? (y/n): ");
+        char restart_choice;
+        scanf(" %c", &restart_choice);
+        if (restart_choice == 'y' || restart_choice == 'Y')
+        {
+            return;
+        }
+        else
+        {
+            exit(0);
+        }
     }
     else
     {
@@ -150,8 +161,20 @@ void pilgrim_test()
         print_formatted_message(WHITE, BOLD, "“You are but a vessel of my disease — weak, unworthy, and blind. Your ignorance has sealed your fate.”\n\n");
         print_formatted_message(WHITE, ITALIC, "Your faith is tested, and you emerge weaker.\n");
         pnl();
+        pnl();
         print_death_ascii_art();
         pnl();
-        exit(0);
+        pnl();
+        print_formatted_message(RED, BOLD, "Do you wish to restart your journey? (y/n): ");
+        char restart_choice;
+        scanf(" %c", &restart_choice);
+        if (restart_choice == 'y' || restart_choice == 'Y')
+        {
+            return;
+        }
+        else
+        {
+            exit(0);
+        }
     }
 }
