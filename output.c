@@ -1,14 +1,34 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "output.h"
+#include <stdlib.h>
+#ifdef _WIN32
+#include <windows.h>
+#else
+#include <unistd.h>
+#endif
 
 #define RESET "\033[0m"
+
+void sleep_ms(int milliseconds)
+{
+#ifdef _WIN32
+    Sleep(milliseconds);
+#else
+    usleep(milliseconds * 1000);
+#endif
+}
+void clrscr()
+{
+    system("@cls||clear");
+}
+
 void print_formatted_message(char color[], char style[], char message[])
 {
     if (style == NULL)
         style = "";
 
-    usleep(30000);
+    sleep_ms(30);
     printf("%s%s%s%s", color, style, message, RESET);
 }
 

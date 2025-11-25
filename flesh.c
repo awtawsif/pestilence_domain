@@ -22,7 +22,7 @@ void flesh_path()
         pnl();
         print_death_ascii_art();
         pnl();
-        usleep(500000);
+        sleep_ms(500);
         exit(0);
         // TODO: Maybe add a restart option later
     }
@@ -58,8 +58,9 @@ void plagued_village()
         if (stages[1] == 0)
             print_formatted_message(BLUE, BOLD, "Burn the sick — end the bodies to starve the disease, sacrificing souls to save hosts\n");
         if (stages[2] == 0)
-            print_formatted_message(BLUE, BOLD, "Seal the gates — isolate the blight, condemning those inside to a slow extinguishing\n\n");
+            print_formatted_message(BLUE, BOLD, "Seal the gates — isolate the blight, condemning those inside to a slow extinguishing\n");
 
+        pnl();
         char choice = choose_path(choice_count);
         if (choice == '1' && stages[0] == 0)
         {
@@ -82,7 +83,7 @@ void plagued_village()
             choice_count--;
             pnl();
         }
-        else if (stages[1] == 0 && (choice == '2' && stages[0] == 0) || (choice == '1' && stages[0] == 1))
+        else if ((stages[1] == 0 && choice == '2' && stages[0] == 0) || (stages[1] == 0 && choice == '1' && stages[0] == 1))
         {
             pnl();
             print_formatted_message(WHITE, ITALIC, "You have chosen to burn the sick.\n");

@@ -22,7 +22,7 @@ void faith_path()
         pnl();
         print_death_ascii_art();
         pnl();
-        usleep(500000);
+        sleep_ms(500);
         exit(0);
         // TODO: Maybe add a restart option later
     }
@@ -57,8 +57,9 @@ void pilgrim_test()
         if (stages[1] == 0)
             print_formatted_message(BLUE, BOLD, "Keep it — preserve your chance to continue the work, or to survive yourself\n");
         if (stages[2] == 0)
-            print_formatted_message(BLUE, BOLD, "Leave them — abstain from interference, allowing fate to flow as it will\n\n");
+            print_formatted_message(BLUE, BOLD, "Leave them — abstain from interference, allowing fate to flow as it will\n");
 
+        pnl();
         char choice = choose_path(choice_count);
         if (choice == '1' && stages[0] == 0)
         {
@@ -81,7 +82,7 @@ void pilgrim_test()
             choice_count--;
             pnl();
         }
-        else if (stages[1] == 0 && (choice == '2' && stages[0] == 0) || (choice == '1' && stages[0] == 1))
+        else if ((stages[1] == 0 && choice == '2' && stages[0] == 0) || (stages[1] == 0 && choice == '1' && stages[0] == 1))
         {
             pnl();
             print_formatted_message(WHITE, ITALIC, "You have chosen to keep the cure.\n");

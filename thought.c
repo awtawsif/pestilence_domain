@@ -22,7 +22,7 @@ void thought_path()
         pnl();
         print_death_ascii_art();
         pnl();
-        usleep(500000);
+        sleep_ms(500);
         exit(0);
         // TODO: Maybe add a restart option later
     }
@@ -58,8 +58,9 @@ void hall_of_echoes()
         if (stages[1] == 0)
             print_formatted_message(BLUE, BOLD, "Block your ears — harden against the noise and protect your inner thread\n");
         if (stages[2] == 0)
-            print_formatted_message(BLUE, BOLD, "Scream back — reclaim voice, using raw emotion to break the loop\n\n");
+            print_formatted_message(BLUE, BOLD, "Scream back — reclaim voice, using raw emotion to break the loop\n");
 
+        pnl();
         char choice = choose_path(choice_count);
         if (choice == '1' && stages[0] == 0)
         {
@@ -82,7 +83,7 @@ void hall_of_echoes()
             choice_count--;
             pnl();
         }
-        else if (stages[1] == 0 && (choice == '2' && stages[0] == 0) || (choice == '1' && stages[0] == 1))
+        else if ((stages[1] == 0 && choice == '2' && stages[0] == 0) || (choice == '1' && stages[0] == 1 && stages[1] == 0))
         {
             pnl();
             print_formatted_message(WHITE, ITALIC, "You have chosen to block your ears.\n");
