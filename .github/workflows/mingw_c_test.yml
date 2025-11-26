@@ -1,0 +1,39 @@
+name: C Project Build and Test (Windows MinGW)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build_and_test:
+    runs-on: windows-latest
+    
+    steps:
+    - name: ⬇️ Checkout code
+      uses: actions/checkout@v4
+
+    # The windows-latest runner includes MSYS2, which is needed to easily install MinGW/GCC
+    - name: ⚙️ Setup MSYS2 and MinGW Toolchain
+      uses: msys2/setup-msys2@v2
+      with:
+        msystem: MINGW64
+        # Install the GCC C compiler package for the MinGW-w64 toolchain
+        install: mingw-w64-x86_64-gcc
+
+    - name: 🔨 Compile C Project
+      # Use the MinGW shell to run the GCC compiler
+      shell: msys2 {0}
+      run: |
+        # The GCC command is instructed to compile and link ALL your .c files 
+        # into a single executable named 'pestilence.exe'.
+        gcc main.c choose.c faith.c flesh.c output.c thought.c -o pestilence.exe
+
+    - name: ▶️ Run Executable
+      # Use the Windows command prompt to execute the compiled program.
+      shell: cmd
+      run: |
+        # The job will succeed if the program runs without crashing and exits with a status code of 0.
+        echo Running the 'pestilence.exe' program...
+        .\pestilence.exe
