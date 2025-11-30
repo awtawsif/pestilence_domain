@@ -4,15 +4,15 @@ PESTILENCE DOMAIN
 INTRO
  The marsh waits like a lung gone black with smoke. Each step sinks, and the fog moves as if it breathes. From that living mist a gaunt figure rises—Pestilence, stitched of cough and shadow. His presence tastes of metal and old wine. The hush that follows is not silence but the held intake before a scream.
 Pestilence:
-“Three contagions. Each is a truth and a trial. Choose which rot will teach you — for knowledge here is paid in decay.”
+\"Three contagions. Each is a truth and a trial. Choose which rot will teach you — for knowledge here is paid in decay.\"
 PROMPT
  He spreads skeletal fingers, and three spirals of mist form, each bearing a different scent: iron and earth, incense and ash, and the faint hum of static thought. Which contagion will you take into your bones?
 
-Path 1: Flesh — “The Rot That Breathes”
+Path 1: Flesh — \"The Rot That Breathes\"
 INTRO
  You step toward a fog that smells of damp soil and fever. The heat of disease presses at your skin, a pressure like a thousand whispered ailments. Your own heartbeat becomes a metronome counting down to erosion — not only of body but of what it anchors.
 Pestilence:
-“When flesh unravels, what is the first casualty — wound, weakness, or will?”
+\"When flesh unravels, what is the first casualty — wound, weakness, or will?\"
 Option
 The wound itself — the immediate, visible break
 The infection within — the slow, unseen spread
@@ -20,11 +20,11 @@ The fear of dying — the mind that surrenders first
 OUTRO
  A shiver crawls beneath your ribs. Your reflection in a puddle distorts into patched skin and hollows; the world feels tactile and unforgiving. You have begun the lesson of bodies that betray, and every step forward will be measured against the cost of survival.
 
-Path 2: Faith — “The Prayer of the Diseased”
+Path 2: Faith — \"The Prayer of the Diseased\"
 INTRO
  You follow a column of cold light wherein prayers hang like moths. Devotion here feels heavy—every whispered supplication weighs like a coin in a closed palm. The air tastes of burnt offerings and hope that has been ground fine by despair.
 Pestilence:
-“When salvation requires sacrifice, does mercy remain mercy or become currency?”
+\"When salvation requires sacrifice, does mercy remain mercy or become currency?\"
 Option
 Yes, one life saved is worth many lost — a necessary calculus
 No, salvation spun from suffering is corrosion of the sacred
@@ -32,11 +32,11 @@ Depends on the one saved — judgement must be contextual
 OUTRO
  The warmth of faith sits uneasily beneath your ribs like a candle melting on a book of law. Your path will demand choices that mark you: altar or ash, compassion or calculation. The world will test whether conviction can withstand contagion.
 
-Path 3: Thought — “The Whispering Fog”
+Path 3: Thought — \"The Whispering Fog\"
 INTRO
  You step into a fog that murmurs in languages you know and those you've never heard. Ideas feel like viruses here — contagious, seductive, altering the shape of questions until they bite. The air tastes like old libraries and the metallic tang of revelation.
 Pestilence:
-“Does knowing alter the knower, or merely reveal what already festers within?”
+\"Does knowing alter the knower, or merely reveal what already festers within?\"
 Option
 Yes, truth spreads like a plague, changing all it touches
 No, truth purifies — exposure cleanses corruption
@@ -54,7 +54,7 @@ LEVEL 2 INTRO
 Narrative Setup
  The village is a chorus of broken breaths. Children thread between shrouded adults; the sick press palms to doors as if touch could tether them to life. The stench of rot hides behind every curtain, yet some faces still search your eyes for rescue.
 Question Prompt
-“The village is dying. The choices before you are visceral and blunt. How do you respond to a community unraveling under infection?”
+\"The village is dying. The choices before you are visceral and blunt. How do you respond to a community unraveling under infection?\"
 Option
 Heal the child — pull a single life back from the edge, but at cost to your strength
 Burn the sick — end the bodies to starve the disease, sacrificing souls to save hosts
@@ -67,7 +67,7 @@ Outro
 Narrative Setup
  A pilgrim staggers to their knees, fever and faith braided on their lips. Their hands clutch a rosary beaded with blood and hope. You possess a single vial — the true cure, potent and finite. Its presence turns morality into mechanics: who will wield mercy, and at what price?
 Question Prompt
-“You carry one cure. Is your life a commodity for devotion, or does duty demand a harder choice?”
+\"You carry one cure. Is your life a commodity for devotion, or does duty demand a harder choice?\"
 Option
 Give it — act as sacrament and save another, accepting the wound you earn
 Keep it — preserve your chance to continue the work, or to survive yourself
@@ -80,7 +80,7 @@ Outro
 Narrative Setup
  The hall stretches endless; your past thoughts bounce and grow teeth. They repeat you, but not kindly — every sentence warps in the echo into accusation or reassurance. Time here folds; a whispered regret may become a lie you once told yourself.
 Question Prompt
-“In this chamber of mirrored mind, what do you do when your own thoughts turn on you?”
+\"In this chamber of mirrored mind, what do you do when your own thoughts turn on you?\"
 Option
 Follow the echo — give in to the seduction of certainty it offers
 Block your ears — harden against the noise and protect your inner thread
@@ -97,7 +97,7 @@ LEVEL 3 INTRO
 Narrative Setup
  The child you saved coughs wetly into your palm; the infection has leapt in recompense. Your veins hum with cold fire. To move forward you must accept that compassion can wound the compassionate.
 Question Prompt
-“The child lives, but the contagion sleeps within you now. Do you press onward bearing this burden?”
+\"The child lives, but the contagion sleeps within you now. Do you press onward bearing this burden?\"
 Option
 Yes — carry the rot as a badge and press on
 No — surrender to care or to the rot and stop here
@@ -107,7 +107,7 @@ Outro: You push forward, body thin as paper but heart stubborn as bone. The infe
 Narrative Setup
  Flames take the sick with the crack and roar of decisive violence. The air fills with ashes and lost names. In the wake of the blaze, only bones and scorched earth remain.
 Question Prompt
-“Do you stay to help organize the ashes — to name the dead and give them what dignity remains — or do you flee the scenes you helped create?”
+\"Do you stay to help organize the ashes — to name the dead and give them what dignity remains — or do you flee the scenes you helped create?\"
 Option
 Stay to help — bear witness, catalog sorrow, try to restore human order
 Flee — escape the weight, sparing yourself the stain of remembrance
@@ -117,7 +117,7 @@ Outro: The acrid smoke stings memory; whether you remain or run, the embers of y
 Narrative Setup
  You shut the bolts on the village, the hinges whining like small graves closing. The lamplight inside wanes; through cracks you hear muffled pleading. The world beyond keeps breathing, but you have left a pocket of silence to grow.
 Question Prompt
-“In the quiet behind the sealed gate, which feeling anchors you?”
+\"In the quiet behind the sealed gate, which feeling anchors you?\"
 Option
 Relief — the pragmatic cold calculus of safety
 Guilt — the long, corrosive ache of chosen exile
@@ -129,7 +129,7 @@ Outro: The sealed air replays choices like a metronome. Isolation preserves some
 Narrative Setup
  The pilgrim clutches life anew; their thanks is a thin, pleading sound. The cure's price is etched into your flesh — infection or exhaustion, a mark that your mercy had a toll.
 Question Prompt
-“Can you endure the cost your compassion has demanded? Will your faith sustain you beneath this new weight?”
+\"Can you endure the cost your compassion has demanded? Will your faith sustain you beneath this new weight?\"
 Option
 Endure — bend but do not break under the cross of consequence
 Collapse — admit that even saints can snap when burdened
@@ -139,7 +139,7 @@ Outro: The world tests whether mercy is an unending well. Endurance reshapes you
 Narrative Setup
  You keep the vial as a promise to yourself: a future safeguard, a bargaining chip against fate. The pilgrim dies or survives by some other hand. Guilt nests in small, invasive ways.
 Question Prompt
-“Do you let shame fester quietly, or do you carry it as a lesson that sharpens you?”
+\"Do you let shame fester quietly, or do you carry it as a lesson that sharpens you?\"
 Option
 Forget — bury the memory and continue functioning
 Remember — let the memory refine your choices and humble you
@@ -149,7 +149,7 @@ Outro: Retaining the cure alters the ledger of your spirit. To forget is to hard
 Narrative Setup
  You turn away as the pilgrim’s body is borne by the river. The current takes what you will not touch. A small ripple spreads outward — your inaction has a geometry.
 Question Prompt
-“Do you offer a final kindness even in absence — a whispered prayer or an indifferent step?”
+\"Do you offer a final kindness even in absence — a whispered prayer or an indifferent step?\"
 Option
 Pray — bestow a private benediction and meet your inaction with ritual
 Ignore — hold to detachment as a doctrine of survival
@@ -160,7 +160,7 @@ Outro: Even leaving is an act with texture. Prayer gives meaning to absence; ign
 Narrative Setup
  Your younger self steps forward, naïve and accusing in equal measure. The echo offers easy absolution or dangerous nostalgia.
 Question Prompt
-“Is the past self a key you should welcome, or a chain you must break?”
+\"Is the past self a key you should welcome, or a chain you must break?\"
 Option
 Embrace — integrate past mistakes as the scaffolding of wisdom
 Reject — sever ties and attempt a new, unburdened path
@@ -170,7 +170,7 @@ Outro: Integration mends fractures into new forms; rejection risks repeating the
 Narrative Setup
  You attempt to silence the hall. Silence is not simple absence but a pressure that rearranges thought. Internal rhythms press louder when the world is shut out.
 Question Prompt
-“Do you accept this internal cadence as part of you, or do you panic at its insistence?”
+\"Do you accept this internal cadence as part of you, or do you panic at its insistence?\"
 Option
 Listen — learn the rhythm and allow it to become guidance
 Panic — fracture under the unbearable mirror of the mind
@@ -180,7 +180,7 @@ Outro: Acceptance grants a steadier center; panic scatters perception. The mind 
 Narrative Setup
  You answer the echoes with a raw, human sound that ripples the hall into new harmonics. The choir rearranges, finding patterns you force upon it.
 Question Prompt
-“What response holds the most sanity in the face of overwhelming noise?”
+\"What response holds the most sanity in the face of overwhelming noise?\"
 Option
 Keep screaming — let catharsis and continued force shape the environment
 Laugh — use absurdity to unmask the terror the echoes weave
@@ -190,9 +190,9 @@ Outro: Both fury and laughter can be sanity’s armor; you learn to use voice as
 Final Scene
  The fog lifts as if someone had skimmed a hand across a mirror. Pestilence stands before you, less a judge now and more a final instructor. His gaze catalogs the paths taken, the lives touched, the silences left, and the aberrant reason you carried like a hidden wound.
 Pestilence:
-“Thirty-nine breaths of corruption — measured, learned, and earned. Will you rise, bearing the mark that proves you understood decay, or will you remain rooted in what you feared?”
+\"Thirty-nine breaths of corruption — measured, learned, and earned. Will you rise, bearing the mark that proves you understood decay, or will you remain rooted in what you feared?\"
 SUCCESS (≥2 correct per path)
-“You wear my mark not as punishment, but as a sigil of understanding. You discovered that corruption can be translated into wisdom: compassion tempered with realism, faith tempered with consequence, thought tempered with humility. Go forward; you are marked, sharpened, and dangerous in the best sense.”
+\"You wear my mark not as punishment, but as a sigil of understanding. You discovered that corruption can be translated into wisdom: compassion tempered with realism, faith tempered with consequence, thought tempered with humility. Go forward; you are marked, sharpened, and dangerous in the best sense.\"
 FAILURE (<2 correct per path)
-“You are unripe — the infection has not yet taught you. Return to the marshes to fester and learn; only through suffering and reflection will the hard fruit of wisdom form. Come back when you can offer more than instinct.”
+\"You are unripe — the infection has not yet taught you. Return to the marshes to fester and learn; only through suffering and reflection will the hard fruit of wisdom form. Come back when you can offer more than instinct.\"
 
